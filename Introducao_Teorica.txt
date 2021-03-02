@@ -1,0 +1,21 @@
+01 - Valores maximos dos tipos de variáveis
+
+	fun main() {
+		println("Hello, world!!!")
+		println(Int.MAX_VALUE)
+		println(Long.MAX_VALUE)
+		println(Float.MAX_VALUE)
+		println(Double.MAX_VALUE)
+		println(Byte.MAX_VALUE)
+		println(Short.MAX_VALUE)
+	}
+===========SAÍDA==================
+	Hello, world!!!
+	2147483647
+	9223372036854775807
+	3.4028235E38
+	1.7976931348623157E308
+	127
+	32767
+==================================
+
