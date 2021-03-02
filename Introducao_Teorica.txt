@@ -18,4 +18,33 @@
 	127
 	32767
 ==================================
+####################################################
+
+02 - Declaracao de variáveis
+
+* Var (valor mutável, padrão de nomenclatura camelCase): 
+	- Valor definido e alterado durante a execução
+* Val (calor imutável, padrão de nomenclatura camelCase): 
+	- Valor definido durante a execução
+	- Variável que terá somente o valor atribuído:
+* Const Val (valor imutável, padrão de nomenclatura SNAKE_CASE):
+	- Constante cujo valor é atribuído durante compilação.
+	- Valor definido durante a compilação
+	
+	Exemplo:
+
+	var currentAge = 22
+	var currentAge:Int?			currentAge = null ou 22 //valor pode ser null ou inteiro
+	
+	val currentAge = 22
+	val currentAge:Int?	
+	
+	const val MIN_AGE = 16
+	const val MAX_AGE = 68
+	
+	
+####################################################
+
+	
+	
 
