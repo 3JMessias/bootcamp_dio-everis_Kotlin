@@ -44,7 +44,38 @@
 	
 	
 ####################################################
+03 - Possíveis erros
 
+	var currentAge
+	currentAge = 22 //ERRO!			A variável precisa ser iniciada ou receber a referência do seu tipo.
 	
+	var currentYear = "Ano"			A variável foi iniciada com o tipo String e foi tentado atribuir um valor inteiro na mesma.
+	currentYear = 2021 //ERRO!
 	
+####################################################
+04 - Operadores Aritmétricos
+
+=====Função	==== Expressão	===== Comando ====== Atribuição
+	soma		 a + b			 a.plus(b)		 a += b
+	subtração	 a - b			 a.minus(b)		 a -= b
+	multiplic	 a * b			 a.times(b)		 a *= b
+	divisao		 a / b			 a.div(b)		 a /= b
+	resto		 a % b			 a.mod(b)		 a %= b
+
+####################################################
+04 - Operadores Comparativos
+
+maior/menor			a > b ou a < b					a.compareTo(b) > 0 ou a.compareTo(b) < 0 
+	//				retorna valor booleano			# Retorna -1(menor), 0(igual) ou 1(maior)
+	
+maior/menor	igual		a >= b ou a <= b						a.compareTo(b)
+	//					# retorna valor booleano				# Retorna -1(menor), 0(igual) ou 1(maior)
+	
+igual					a == b							a.equals(b)		# retorna valor booleano		
+
+diferente				a != b							!(a.equals(b))		# retorna valor booleano		
+		
+
+
+
 
