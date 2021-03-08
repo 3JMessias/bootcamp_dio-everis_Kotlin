@@ -105,3 +105,59 @@ diferente				a != b							!(a.equals(b))		# retorna valor booleano
 			println(age >= MIN_AGE && age <= MAX_AGE)    
 		}
 
+###################################################
+06 - Manipulando Strings
+	
+	* Pode ser concatenado com plus/+
+	* Também é tratada como um array de Char
+	
+	Para acessar as posições:
+	First(), last(), String.length, String[index]
+	
+	Concatenação:
+	
+	Exemplo:
+	const val NAME = "Ana"
+	const val S = "olá"
+	fun main() {
+		println(S.plus(NAME))
+		println(S + NAME)
+		println("$S $NAME")
+		println("Bem vindo(a) $NAME!") --  usa-se o $ para o uso de variável entre as aspas
+		//Interpolação entre duas variáveis - As chaves são necessárias toda vez que se for manipular uma variável.
+		println("${S.capitalize()} $NAME, tudo bem?")
+	}
+
+	Métodos:
+	- capitalize() 		= transforma a primeira letra de uma string em 'Maiusculo'
+	- toUpperCase() 	= Transforma a string toda para CAIXA ALTA
+	- toLowerCase()		= Transforma a string toda para caixa baixa
+	- decapitalize()	= contrário do capitalize(), transforma a primeira letra de uma string em 'Minusculo'
+	- trimEnd()			= Remove espaços vazios e caracteres inadequados para Impressão do final da string
+	- trimStart()			= Remove espaços vazios e caracteres inadequados para Impressão do início da string
+	- trim()			= Remove espaços vazios e caracteres inadequados para Impressão do inicio e do final da string
+	- replace(a, b)		= Substituir caracteres por outro
+	
+	Exemplo:
+	
+	const val NAME = "ana Maria Braga "
+	const val S = " Ana Maria Braga "
+	fun main() {
+		println("Original: " + S)
+		println("TrimEnd: " + S.trimEnd())
+		println("TrimStart: " + S.trimStart())
+		println("Trim: " + S.trim())
+		println("Replace: " + S.replace("M", "F"))
+	}
+
+	Empty X Blank
+	
+	- Se o tamanho da string (s.length) for 0 está empty e Blank;
+	- Se o tamanho for > 0 mas todos os caracteres são espaços em branco, está Blank mas não empty;
+
+
+
+
+
+
+
